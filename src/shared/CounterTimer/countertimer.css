@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+
+.container span {
+  margin: 0 20px;
+}
+
+.button { 
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  background-color: var(--greenNormal);
+  border: none;
+  border-radius: 4px;
+}
