@@ -1,7 +1,7 @@
 {
-  "name": "counterIGTest",
+  "name": "@igorchusov/countertest",
   "version": "1.0.0",
-  "description": "",
+  "description": "Запустить сборку в development: npm run build:dev",
   "main": "index.js",
   "engines": {
     "node": "14.x"
@@ -52,5 +52,17 @@
     "webpack-dev-server": "^3.10.3",
     "webpack-hot-middleware": "^2.25.1",
     "webpack-node-externals": "^3.0.0"
-  }
+  },
+  "bin": {
+    "countertest": "dev.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorChusov/Counters.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IgorChusov/Counters/issues"
+  },
+  "homepage": "https://github.com/IgorChusov/Counters#readme"
 }
